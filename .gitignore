@@ -1,0 +1,9 @@
+# 打包产物与临时文件
+dist/
+build/work/
+*.spec.bak
+__pycache__/
+*.py[cod]
+
+# 二进制 exe 不入库，发布到 Releases
+*.exe
